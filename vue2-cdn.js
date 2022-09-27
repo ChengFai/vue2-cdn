@@ -5089,13 +5089,19 @@ function Vue (options) {
   this._init(options);
 }
 
+/* Vue中最核心的实例化方法
+
+对options进行初始化，合并，挂载等操作
+*/
+
+
 initMixin(Vue);
 stateMixin(Vue);
 eventsMixin(Vue);
 lifecycleMixin(Vue);
 renderMixin(Vue);
 
-/*  */
+/* mixin混入state 生命周期钩子  init 时间等等 */
 
 function initUse (Vue) {
   Vue.use = function (plugin) {
