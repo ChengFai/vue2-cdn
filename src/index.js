@@ -10,6 +10,10 @@ new Vue({
     methods: {
         add() {
             this.message++; 
+        },
+        clickFn() {
+            alert("被点击")
+            console.log(this);
         }
     }
 })

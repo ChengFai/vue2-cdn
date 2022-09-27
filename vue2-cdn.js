@@ -4,7 +4,7 @@
  * Released under the MIT License.
  */
 
-const MakeEpicShit = function () { 'use strict';
+const vueFactoryFn = function () { 'use strict';
 
 /*  */
 
@@ -12023,4 +12023,4 @@ const justRunNow = function (global, factory) {
 }
 
 
-justRunNow(this, MakeEpicShit);
+justRunNow(this, vueFactoryFn);
